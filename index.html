@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+    var firebaseConfig = {
+  apiKey: "AIzaSyD0yRzq5yZIJN6eze_aJAAQPvtsKqp0Xj4",
+  authDomain: "fruit-basket-61bc9.firebaseapp.com",
+  projectId: "fruit-basket-61bc9",
+  storageBucket: "fruit-basket-61bc9.appspot.com",
+  messagingSenderId: "48513285404",
+  appId: "1:48513285404:web:7589f56eb0cd11f6fa4ed9"
+};
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="./js/game.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
